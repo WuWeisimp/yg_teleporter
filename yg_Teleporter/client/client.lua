@@ -1,4 +1,4 @@
---command to go to anpther player
+--command to go to another player
 RegisterCommand('goto', function(_, args)
     local targetId = args [1]
 
@@ -10,7 +10,7 @@ RegisterCommand('goto', function(_, args)
     TriggerServerEvent('yg_Teleporter:goto', targetId)
 
 end)
---command to brung another player to us
+--command to bring another player to us
 RegisterCommand('summon', function(_,args)
     local targetId = args[1]
 
